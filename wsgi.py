@@ -3,7 +3,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "Network test to Pod2"
+    return "Resource test"
 
 if __name__ == "__main__":
     application.run()
